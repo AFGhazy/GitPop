@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/git_pop_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    />
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/no_data_available" />
+</FrameLayout>
